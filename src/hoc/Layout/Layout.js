@@ -30,7 +30,7 @@ class Layout extends Component {
                 <main classes={classes.Content}>
                     {this.props.children}
                 </main>
-                
+                <MainBody/>
                 
             </Aux>
             )

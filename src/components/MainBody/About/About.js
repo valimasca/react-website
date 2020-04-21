@@ -2,6 +2,10 @@ import React , { Component } from 'react';
 import { Container, Row, Col } from 'react-grid-system';
 
 import aboutImg from '../../../assets/images/valiBeth.jpg';
+import dockImg from '../../../assets/images/dock.jpg';
+import lakeImg from '../../../assets/images/lakeMountain.jpg';
+import sunsetImg from '../../../assets/images/sunset.jpg';
+
 import classes from './About.css';
 
 class About extends Component {
@@ -9,13 +13,13 @@ class About extends Component {
         return(
         <div>
         <Container fluid>
-            <Row debug>
-                <Col  debug md={8}>
-                    <div className={classes.Logo} >
-                        <img src={aboutImg} alt="MyImage"/>
+            <Row  debug>
+                <Col  debug lg={6} sm={12} md={12}>
+                    <div className={classes.About} >
+                        <img style={ {float: 'center'}} src={aboutImg} alt="MyImage"/>
                     </div>
                 </Col>
-                <Col debug  md={4}>
+                <Col debug lg={6} sm={12} md={12}>
                     <div>
                         <div>
                         <span>About Us</span>
@@ -27,7 +31,7 @@ class About extends Component {
                 </Col>
             </Row>
             <Row debug>
-                <Col debug md={6}>
+                <Col debug sm={12} md={6}>
                     <div>
                         <div>
                             <span>What I do?</span>
@@ -56,8 +60,28 @@ class About extends Component {
                         </div>
                     </div>
                 </Col>
-                <Col debug md={6} >
+                <Col debug sm={12} md={6} >
                     <h1>hello</h1>
+                </Col>
+            </Row>
+        </Container>
+        {/* <hr style={{color: "white"}}/> */}
+        <Container fluid>
+            <Row debug>
+                <Col debug sm={12} md={4}>
+                    <div className={classes.About} >
+                        <img style={ {float: 'center'}}src={dockImg} alt="MyImage"/>
+                    </div>
+                </Col>
+                <Col debug sm={12} md={4}>
+                    <div className={classes.About} >
+                        <img style={ {float: 'center'}}src={lakeImg} alt="MyImage"/>
+                    </div>
+                </Col>
+                <Col debug sm={12} md={4}>
+                    <div className={classes.About} >
+                        <img style={ {float: 'center'}}src={sunsetImg} alt="MyImage"/>
+                    </div>
                 </Col>
             </Row>
         </Container>

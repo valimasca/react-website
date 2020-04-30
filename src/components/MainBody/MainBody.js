@@ -8,14 +8,9 @@ import About from './About/About';
 class MainBody extends Component {
     render() {
         return(
-        <div id="colorlib-page">
-            <div id="container-wrap">
-         	    {/* <Sidebar></Sidebar> */}
-				<div id="colorlib-main">
-					{/* <Introduction></Introduction> */}
-					<About></About>
-					{/* <Timeline></Timeline> */}
-          	    </div>
+        <div>
+            <div>
+			    <About></About>
       	    </div>
         </div>
         )

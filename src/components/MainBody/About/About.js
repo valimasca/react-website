@@ -5,6 +5,19 @@ import aboutImg from '../../../assets/images/valiBeth.jpg';
 import dockImg from '../../../assets/images/dock.jpg';
 import lakeImg from '../../../assets/images/lakeMountain.jpg';
 import sunsetImg from '../../../assets/images/sunset.jpg';
+import facebookImg from '../../../assets/socialmedia/facebook.png';
+import betheltechImg from '../../../assets/socialmedia/betheltech.png';
+import bootstrapImg from '../../../assets/socialmedia/bootstrap.png';
+import githubImg from '../../../assets/socialmedia/github.png';
+import linkedinImg from '../../../assets/socialmedia/linkedin.png';
+import mongodbImg from '../../../assets/socialmedia/mongodb.png';
+import reactImg from '../../../assets/socialmedia/react.png';
+import udemyImg from '../../../assets/socialmedia/udemy.png';
+import w3schoolsImg from '../../../assets/socialmedia/w3schools.png';
+import angularImg from '../../../assets/socialmedia/angular.png';
+import bethelchurchImg from '../../../assets/socialmedia/bethelchurch.png';
+import expressjsImg from '../../../assets/socialmedia/expressjs.png';
+
 
 import classes from './About.css';
 
@@ -60,8 +73,48 @@ class About extends Component {
                         </div>
                     </div>
                 </Col>
-                <Col debug sm={12} md={6} >
-                    <h1>hello</h1>
+                <Col  debug sm={12} md={6} className={classes.About}>
+                    <section>
+                   <h1>Helpful Resources</h1>
+                    <ul>
+                       <a href="https://www.facebook.com" rel="noopener noreferrer" target="_blank">
+                           <li><img src={facebookImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>Facebook</li>
+                       </a>
+                       <a href="https://www.linkedin.com/in/vali-l-masca/" rel="noopener noreferrer" target="_blank">
+                           <li><img src={linkedinImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>LinkedIn</li>
+                        </a>
+                        <a href="https://github.com/valimasca" rel="noopener noreferrer" target="_blank">
+                            <li><img src={githubImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>GitHub</li>
+                        </a>
+                        <a href="https://reactjs.org/" rel="noopener noreferrer" target="_blank">
+                            <li><img src={reactImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>React.js</li>
+                        </a>
+                        <a href="https://www.mongodb.com/" rel="noopener noreferrer" target="_blank">
+                            <li><img src={mongodbImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>MongoDB</li>
+                        </a>
+                        <a href="https://www.angular.io/" rel="noopener noreferrer" target="_blank">
+                            <li><img src={angularImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>Angular JS</li>
+                        </a>
+                        <a href="https://www.expressjs.com/" rel="noopener noreferrer" target="_blank">
+                            <li><img src={expressjsImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>Express JS</li>
+                        </a>
+                        <a href="https://sealninja.github.io/react-grid-system/#section-introduction" rel="noopener noreferrer" target="_blank">
+                            <li><img src={bootstrapImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>React Grid System</li>
+                        </a>
+                        <a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/" rel="noopener noreferrer" target="_blank">
+                            <li><img src={udemyImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>React Udemy Course</li>
+                        </a>
+                        <a href="https://betheltech.net/" rel="noopener noreferrer" target="_blank">
+                            <li><img src={betheltechImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>Bethel Tech</li>
+                        </a>
+                        <a href="https://www.w3schools.com/" rel="noopener noreferrer" target="_blank">
+                            <li><img src={w3schoolsImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>W3 Schools</li>
+                        </a>
+                        <a href="https://www.bethel.com/" rel="noopener noreferrer" target="_blank">
+                            <li><img src={bethelchurchImg} alt="Smiley face" style={{height: '30px', width: '30px'}}/>Bethel Church</li>
+                        </a>
+                    </ul>
+                   </section>
                 </Col>
             </Row>
         </Container>
@@ -70,7 +123,7 @@ class About extends Component {
             <Row debug>
                 <Col debug sm={12} md={4}>
                     <div className={classes.About} >
-                        <img style={ {float: 'center'}}src={dockImg} alt="MyImage"/>
+                        <img style={ {float: 'center'}}src={dockImg} alt="MyImage"/>   
                     </div>
                 </Col>
                 <Col debug sm={12} md={4}>

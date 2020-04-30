@@ -1,9 +1,10 @@
 .About {
-    background-color: white;
-    padding: 8px;
+    background-color: transparent;
+    padding: 1px 1px 1px 1px !important; 
     height: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
     border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .About img {
@@ -12,3 +13,34 @@
     width: 100%;
 }
 
+.About section {
+    background-color:#A7A9A8;
+}
+
+.About section a {
+    color: #012549;
+    list-style: none;
+    align-items: center;
+    text-align: justify;
+    padding: 0;
+}
+
+.About section h1 {
+    color: #8F5C2C;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+
+.About section img {
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.About section a:hover {
+    color: #40A4C8;
+}
+
+.About .icon {
+        height: 70px;
+        width: 70px;
+}

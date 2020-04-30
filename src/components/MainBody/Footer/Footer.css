@@ -1,0 +1,31 @@
+/* .Footer {
+    height: 56px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #012549;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    color: #8F5C2C;
+    text-align: center;
+}
+
+.Footer p {
+    display: flex;
+    align-items: center;
+    margin-left: 500px !important;
+} */
+
+.Footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #012549;
+    color: #8F5C2C;
+    text-align: center;
+  }
